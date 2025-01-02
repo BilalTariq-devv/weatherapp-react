@@ -1,0 +1,22 @@
+.TempToggle {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	margin-top: 10px;
+}
+button {
+	background: #f0f0f0;
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	cursor: pointer;
+	transition: background 0.3s;
+	&:disabled {
+		background: #ddd;
+		cursor: not-allowed;
+	}
+	&:hover {
+		&:not(:disabled) {
+			background: #e0e0e0;
+		}
+	}
+}

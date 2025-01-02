@@ -1,0 +1,14 @@
+.MainView {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+.CurrentWeather {
+	margin-bottom: 20px;
+}
+.Forecast {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
